@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dumpling Delight - The Perfect Dumpling Bag</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 20px 0;
+        }
+        
+        nav {
+            margin: 20px 0;
+            padding: 15px 0;
+            border-top: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            gap: 30px;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: #ff6b6b;
+            font-weight: 500;
+        }
+        
+        h1 {
+            color: #ff6b6b;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        h2 {
+            color: #ff6b6b;
+            font-size: 2rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        section {
+            padding: 40px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+        
+        .product-image {
+            flex: 1;
+            min-width: 300px;
+            text-align: center;
+        }
+        
+        .product-image img {
+            max-width: 100%;
+        }
+        
+        .product-info {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .price {
+            font-size: 2rem;
+            color: #ff6b6b;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+        
+        .buy-button {
+            display: inline-block;
+            background-color: #ff6b6b;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            font-size: 1.1rem;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .feature-card {
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .about-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .about-text {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .about-image {
+            flex: 1;
+            min-width: 300px;
+            text-align: center;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            color: #888;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dumpling Delight</h1>
+        <p>The bag that's as cute as a dumpling</p>
+        
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Fall in Love With Our Dumpling Bag</h1>
+        <p>The perfect blend of adorable design and practical functionality</p>
+        <a href="#products" class="buy-button">Shop Now</a>
+    </section>
+
+    <section id="products">
+        <h2>Our Signature Dumpling Bag</h2>
+        <div class="product-container">
+            <div class="product-image">
+                <img src="p1.jpg" alt="Dumpling Delight Bag">
+            </div>
+            
+            <div class="product-info">
+                <h3>Soft, Round, and Absolutely Adorable</h3>
+                <p>The Dumpling Delight bag combines playful design with practical functionality. Its unique dumpling shape turns heads wherever you go.</p>
+                
+                <div class="price">P89</div>
+                
+                <button class="buy-button">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <h2>Why You'll Love It</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <h3>Premium Materials</h3>
+                <p>Made with high-quality vegan leather that's durable and easy to clean.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Spacious Interior</h3>
+                <p>Fits all your essentials while maintaining its perfect dumpling shape.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Easy Access</h3>
+                <p>Magnetic snap closure allows quick access to your belongings.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Multiple Colors</h3>
+                <p>Available in various delicious dumpling-inspired colors.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Dumpling Delight</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Our Story</h3>
+                <p>Founded in 2020, Dumpling Delight was born from our love of both fashion and food. We noticed that most bags had sharp corners and rigid shapes, and we wondered - why can't bags be as cute and comforting as dumplings?</p>
+                <p>After two years of prototyping and testing, we created the perfect dumpling-shaped bag that combines adorable aesthetics with practical functionality.</p>
+                <h3>Our Mission</h3>
+                <p>To bring joy to everyday life through playful, functional accessories that make people smile.</p>
+            </div>
+        </div>
+    </section>
+
+    <section style="text-align: center; padding: 40px 0;">
+        <h2>Ready to Carry Your Dumpling?</h2>
+        <p>Join thousands of happy customers who adore their Dumpling Delight bags.</p>
+        <a href="#products" class="buy-button">Order Now</a>
+    </section>
+    
+    <footer>
+        <p>© 2025 Dumpling Delight. All rights reserved.</p>
+    </footer>
+</body>
+</html>
